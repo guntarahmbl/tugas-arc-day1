@@ -1,0 +1,10 @@
+git rebase adalah suatu cara lain untuk menyatukan 2 branch selain merge yang biasa.
+pada git rebase, history yang ada dari 2 branch juga ikut di-merge pada branch target 
+sehingga history yang ada menjadi lebih linear. Apa maksudnya linear? Maksudnya, history pada branch
+lain sejalan dengan history target (biasanya main/master) nya.
+
+Gampangnya, kita jadi bisa melihat history dari branch lain pada history dari branch target (biasanya main/master).
+
+Cara melakukannya adalah dengan mengetikkan command:
+
+git rebase [nama branch target]

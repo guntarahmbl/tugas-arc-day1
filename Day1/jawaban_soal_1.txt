@@ -1,0 +1,20 @@
+Merge conflict adalah suatu kondisi terjadinya kegagalan untuk merge 2 branch. 
+Penyebab dari kegagalan ini SALAH SATUNYA adalah karena pada 1 file yang sama (di branch berbeda) 
+terjadi perbedaan isi pada line yang sama. 
+
+Misalnya pada branch 'master', line 1 dari file 'guntara.txt' berisi tulisan
+'saya nambahin isi bab 1'. Kemudian pada branch 'kerjaan-lain', line 1 file dari file'guntara.txt' 
+berisi tulisan 'saya suka kamu'. 
+
+Terdapat perbedaan pada line 1 di file guntara.txt kan? Nah, perbedaan ini dapat menimbulkan konflik
+sehingga harus dicocokkan terlebih dahulu. Namun, apabila perbedaannya terjadi dalam line yang berbeda, 
+tidak masalah.
+
+Penyebab kegagalan yang lain:
+1. penghapusan satu file pada branch tertentu tapi ada perubahan pada branch lainnya.
+2. Rename file yang sama, dsb.
+
+intinya, konflik terjadi ketika git kesulitan menentukan hubungan antara sebelum dan sesudah terjadinya perubahan
+
+cara resolve nya adalah dengan menyesuaikan kedua branch tersebut. kemudian, jangan lupa git add lagi.
+Kalau sudah, tinggal ketik command git merge --continue

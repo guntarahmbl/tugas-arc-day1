@@ -1,0 +1,12 @@
+Fork, gampangnya, adalah membuat copy dari repositori github orang lain ke repositori
+github sendiri. Dengan membuat fork, kita bisa mengotak-atik repositori orang lain 
+TANPA mengubah repositori aslinya. Biasanya fork ini kita lakukan saat kita ingin berkontribusi
+pada proyek open source, tapi tidak bisa mengubah repo asli karena tidak punya izinnya. 
+
+Caranya sangat gampang. tinggal pergi ke repo yang ingin di-fork. lalu pada kanan atas, klik 'fork'
+
+
+Nah, setelah fork dan membuat perubahan2/penambahan2, tentu kita ingin mengusulkan perubahan tersebut
+ke repo aslinya. Nah, kita bisa lakukan itu dengan cara PULL REQUEST ke pemilik repo asli.
+Nanti, pemilik repo asli bisa melihat2 perubahan yang telah dilakukan. Kalau misalnya cocok, pemilik 
+repo asli akan merge kerjaan kita ke kerjaannya.
